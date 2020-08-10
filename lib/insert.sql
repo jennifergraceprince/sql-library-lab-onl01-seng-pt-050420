@@ -23,10 +23,10 @@ INSERT INTO characters (name, motto, species, author_id, series_id) VALUES
   ("Pippin Took", "Let's eat!", "hobbit", 1, 1),
   ("Gandalf", "The fate of the world is upon us", "human", 1, 1),
   ("Legolas", "There's something in my eye", "elf", 1, 1),
-  ("Harry Seldon", "Mathmatics rules", "human", 2, 2),
-  ("Gaal Dornick", "Seldon rules", "human", 2, 2),
-  ("King Leopold", "", "human", 2, 2),
-  ("Salvor Hardin", "Stay the course", "human", 2, 2);
+  ("Harry Seldon", "Mathmatics rules", "dog", 2, 2),
+  ("Gaal Dornick", "Seldon rules", "dog", 2, 2),
+  ("King Leopold", "", "dog", 2, 2),
+  ("Salvor Hardin", "Stay the course", "dog", 2, 2);
 
 INSERT INTO character_books (character_id, book_id) VALUES
   (1,1),
